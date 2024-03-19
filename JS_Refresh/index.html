@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        This is JS
+    </h1>
+
+    <script>
+        document.addEventListener("click", function click(){
+            console.log("clicked");
+            // alert("hello"); --> will only alert
+            let conf = confirm("Are you sure ?")
+            console.log(conf); // will return true or false
+        })
+
+        // call back function is invoked when a work has already been done
+        setTimeout(()=>{
+            console.log("yipee"); // this function will get invoked after 3sec.
+        },3000)
+        console.log("not yipee")
+        // the settimeout will execute after 3 sec but the code below it will keep getting executed in the default flow
+
+        // After call backs we come to promises --> a promise is either resolve or reject
+    </script>
+</body>
+</html>
