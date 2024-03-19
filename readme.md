@@ -14,3 +14,9 @@ Add bootstrap CSS and JS bundle in index.html in public folder
 
 If you get any tag like <img> that has no closing tag then,
 you'll get error --> to resolve write <img /> like this to close the tag
+
+While making components --> always write the first letter in capital
+Write rfc in the component to bring the boiler plate for react function based component
+
+To use that component e.g. Navbar
+write <Navbar/> in App.js and at top write import Navbar from './components/Navbar.js';
