@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Textform from "./components/Textform";
+import About from "./components/About";
 function App() {
   return (
     <>
@@ -9,7 +10,10 @@ function App() {
       {/* my-3 is a property in bootstrap that give margin y of 3px */}
       <div className="container my-3">
         <Textform heading ="Enter the Text to Analyze" />
+        <About/>
       </div>
+
+      
     </>
   );
 }
