@@ -20,3 +20,10 @@ Write rfc in the component to bring the boiler plate for react function based co
 
 To use that component e.g. Navbar
 write <Navbar/> in App.js and at top write import Navbar from './components/Navbar.js';
+
+===========PROPS=====================
+e.g. in App.js <Navbar title="ABC"/>
+and in NAvbar function based component pass argument props then display {props.title} --> in curly braces
+so, props provide us with customable properties
+suppose I want to use this Navbar component in some other project where I want my title to be something else so I have tp ,ake changes only in the title instead of changing it everywhere...kind of putting value in a variable and then using that variable instead of the value
+=====================================

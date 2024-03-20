@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       
-      <Navbar/>
+      <Navbar title="TextUtils" about_text="about us"/>
     </>
   );
 }
