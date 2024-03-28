@@ -32,3 +32,12 @@ In bootstrap :
 Success = green color
 Primary = blue color
 Danger = red color
+
+
+React Router --> used for single page applications 
+let's say our navbar is fixed for every page we have in our website (Home, About, Contact, etc..)
+so everytime we swith page the navbar remains same so to save the loading time we instead of shifting whole content to different page,
+we bring the rest of content (other than navbar) to the same page and paste it by replacing the earlier content below navbar
+
+To install react router write in terminal
+npm intall react-router-dom
